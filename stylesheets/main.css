@@ -1,0 +1,24 @@
+main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.screenshots-row img {
+    max-width: 100%;
+}
+
+h2 {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 1rem;
+}
+
+@media print {
+    h2, h3 { 
+        page-break-after: avoid;
+    }
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.4em;
+}
